@@ -1,7 +1,7 @@
-kubectl delete deploy backend-user
-kubectl delete deploy backend-feed
-kubectl delete deploy reverseproxy
-kubectl delete deploy frontend
+# kubectl delete deploy backend-user
+# kubectl delete deploy backend-feed
+# kubectl delete deploy reverseproxy
+# kubectl delete deploy frontend
 
 # # Apply env variables and secrets
 kubectl apply -f aws-secret.yaml
