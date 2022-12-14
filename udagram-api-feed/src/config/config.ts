@@ -7,7 +7,7 @@ export const config = {
   'aws_region': 'us-east-1',
   'aws_profile': 'default',
   'aws_media_bucket': 'project-3-bucket-udacity',
-  'url': 'http://localhost:8100',
+  'url': 'http://abadcfb2c7d6f45d7a26d01121324160-881583472.us-east-1.elb.amazonaws.com:8100',
   'jwt': {
     'secret': 'testing',
   },
