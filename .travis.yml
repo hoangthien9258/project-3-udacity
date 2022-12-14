@@ -24,7 +24,7 @@ script:
 
   - docker build -t udagram-frontend ./udagram-frontend
 
-  - docker tag udagram-frontend thienhoang9258/udagram-frontend:v1
+  - docker tag udagram-frontend thienhoang9258/udagram-frontend:latest
 
   - docker build -t reverseproxy ./udagram-reverseproxy
 
