@@ -5,7 +5,7 @@ metadata:
     app: frontend
   name: frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
@@ -25,8 +25,8 @@ spec:
             memory: "64Mi"
             cpu: "250m"
           limits:
-            memory: "1024Mi"
-            cpu: "500m"              
+            memory: "2048Mi"
+            cpu: "500m"            
         volumeMounts:
         - name: aws-secret
           mountPath: "/root/.aws/"
