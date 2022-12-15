@@ -68,11 +68,11 @@ spec:
               key: POSTGRES_USERNAME   
         resources:
           requests:
-            memory: "64Mi"
-            cpu: "250m"
+            memory: "700Mi"
+            cpu: "500m"
           limits:
             memory: "2048Mi"
-            cpu: "500m"        
+            cpu: "1000m"        
         volumeMounts:
         - name: aws-secret
           mountPath: "/root/.aws/"
